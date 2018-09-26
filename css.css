@@ -1,14 +1,25 @@
 /*   by Chris Coyier http://css-tricks.com */
 
 * { margin: 0; padding: 0; }
+body {
+  margin:0;
+  padding:0;
+  padding-top:1em;
+  background: #27292A url("girl.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  font-size:2em;
+  text-align:center;
+}
+
 #menu { font: 14px Georgia, serif; }
 /* propriétés de base du menu */
 #menu nav {width: 960px;height: 100px;margin: 50px auto;  text-align: center;display: block;font-family: verdana,arial;}
 
 /* attention à bien faire correspondre l'id de chaque item avec le code */
-#item1 { background: #41D05F; }
-#item2 { background: #E42B2B; }
-#item3 { background: #ff8400; }
+#item1 { background: #F5F5F5; }
+#item2 { background: #A9A9A9; }
+#item3 { background: #000000; }
 #item4 { background: #a800ff; }
 #item5 { background: #49a7f3; }
 
@@ -451,21 +462,63 @@ h1{
   text-align: center;
 }
 
-h2{
-  color:#FAAC58;
+#home_title {
   text-align: center;
-  
-  font-size: medium;
+  background-color:black;
+  opacity: 0.85;
+  display: inline-block;
+  padding: 5px 8px ;
+}
+
+.my-h2{
+  color:#FFFFFF;
+  text-align: center;
+  font-size: 50px;
+
  } 
 
-  p{ color:#FFFFFF; 
+.p-div {
+  background-color:black;
+  opacity: 0.85;
+  padding: 10px 20px;
+  margin: 0px 50px;
+  display: inline-block;
+}
 
-  }
+p, .fixed-time{ 
+  color:#FFFFFF;  
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.fixed-time {
+  position: fixed;
+  font-family: "Agency FB", verdana, sans-serif;
+  font-size: 0px;
+  padding-left: 100px;
+}
+
+.fixed-time > span {
+  font-size: 50px;
+}
+
+.red-digit {
+  color: red;
+}
+
+.bottom-margin {
+  margin-bottom: 10px;
+}
 
 img {  
   position:relative;
   left:250px;
  }
+
+footer {
+  margin-top: 50px;
+}
+
  h3{
   font-size:x-small;
  }
@@ -474,20 +527,3 @@ img {
   color:red;
   text-align: left;
  }
-
-
-
- body {
-  margin:0;
-  padding:0;
-  background: url("girl.jpg") no-repeat center fixed; 
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
-}
-
-
-
-img  {
-  position: relative;
-  left: 250px
-}

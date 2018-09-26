@@ -447,7 +447,7 @@ url(data:font/otf;charset=utf-8;base64,T1RUTwANAIAAAwBQQ0ZGIE/fdygAAAIYAAAKvERTS
 
 
 h1{
-  color:#FAAC58;
+  color:#F0d0c0;
   text-align: center;
 }
 
@@ -456,7 +456,12 @@ h2{
   text-align: center;
   
   font-size: medium;
-}
+ } 
+
+  p{ color:#FFFFFF; 
+
+  }
+
 img {  
   position:relative;
   left:250px;
@@ -470,16 +475,15 @@ img {
   text-align: left;
  }
 
+
+
  body {
   margin:0;
   padding:0;
-  background: url("nuage.jpg") no-repeat center fixed; 
+  background: url("girl.jpg") no-repeat center fixed; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 }
-
-
-
 
 
 
